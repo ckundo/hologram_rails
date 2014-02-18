@@ -1,6 +1,6 @@
 # hologram_rails
 
-Add Hologram to your Rails app.
+Add a styleguide to your Rails app using Hologram.
 
 ### 1. add hologram_rails to your Gemfile and install:
 
