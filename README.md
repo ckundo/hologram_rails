@@ -12,7 +12,7 @@ $ bundle install
 ```
 
 
-### 2. Generate a hologram config file and related assets:
+### 2. Generate a hologram config file:
 
 ```
 $ mkdir app/assets/hologram/ && cd !$
@@ -40,7 +40,7 @@ index: basics
 ```
 
 
-### 5. Add documentation to an application stylesheet:
+### 5. Add documentation to an application stylesheet (per [Hologram readme](https://github.com/trulia/hologram#documenting-your-styles)):
 
 ```
     /*doc
