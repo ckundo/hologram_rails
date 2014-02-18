@@ -1,6 +1,8 @@
 # hologram_rails
 
-Add a styleguide to your Rails app using Hologram.
+Add a styleguide to your Rails app using [Hologram](http://github.com/trulia/hologram).
+
+Sample Rails app with hologram_rails: https://github.com/ckundo/hologram-rails-example
 
 ### 1. add hologram_rails to your Gemfile and install:
 
