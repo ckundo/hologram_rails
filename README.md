@@ -31,7 +31,15 @@ index: basics
 ```
 
 
-### 4. Import code highlighting and layout styles:
+### 4. Create an application route:
+
+```
+# config/routes.rb
+mount HologramRails::Engine, at: "/styleguide"
+```
+
+
+### 5. Import code highlighting and layout styles:
 
 ```
 # application.scss
@@ -40,7 +48,7 @@ index: basics
 ```
 
 
-### 5. Add documentation to an application stylesheet (per [Hologram readme](https://github.com/trulia/hologram#documenting-your-styles)):
+### 6. Add documentation to an application stylesheet (per [Hologram readme](https://github.com/trulia/hologram#documenting-your-styles)):
 
 ```
     /*doc
@@ -58,7 +66,7 @@ index: basics
 ```
 
 
-### 6. Build the styleguide assets (set up Guard or Watchr if you want live updates)
+### 7. Build the styleguide assets (set up Guard or Watchr if you want live updates)
 
 ```
 $ cd app/assets/hologram/ && hologram
